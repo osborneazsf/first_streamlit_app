@@ -46,3 +46,7 @@ streamlit.dataframe(my_data_rows)
 #adding a single-line text input widget
 
 fruit_add = streamlit.text_input('What fruit would you like to add: ', '{default}')
+
+#displaying the entered text
+
+st.write('Fruit to add is: ', fruit_add)
